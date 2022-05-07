@@ -66,7 +66,7 @@ tags:
 
 4. Re-login current user
     ```sh
-    sudo su -    // Change as root
+    sudo su -           // Change as root
     su - [current user] // Change as current user
     ```
     <br><br>
