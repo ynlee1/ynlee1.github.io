@@ -1,6 +1,7 @@
 ---
+published: true
 title: "minimal-mistake 를 이용한 GitHub Blog 설치"
-last_modified_at: 2022-05-08T01:30:00
+last_modified_at: 2022-05-08T02:10:00
 categories:
   - github
 tags:
