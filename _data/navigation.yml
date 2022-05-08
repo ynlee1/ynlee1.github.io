@@ -30,3 +30,9 @@ docs:
     - title: "TSQL"
       url: categories/tsql
       category: "tsql"
+
+  - title: "Windows"
+    children:
+    - title: "Windows"
+      url: categories/windows
+      category: "windows"
