@@ -1,6 +1,6 @@
 ---
 published: true
-title: "GitHub Blog with minimal-mistake"
+title: "[Jekyll] GitHub Blog with minimal-mistake"
 last_modified_at: 2022-05-09
 categories:
   - jekyll
@@ -13,11 +13,16 @@ tags:
 ## Minimal-mistake
 장점: 커스터마이징의 장점을 가지고 있으며, 자유도가 높음
 
-### What is Jekyll?
-텍스트 변환 엔진. Markup language로 글을 작성하면 미리 정의해 놓은 규칙에 따라 정적 웹사이트를 만들어 준다.
+### What is Jekyll(지킬)?
+Static Website Builder. Markup language로 글을 작성하면 미리 정의해 놓은 규칙에 따라 정적 웹사이트를 만들어 준다.
 
 ### Markup language?
-Tag등을 이용하여 문서나 data 구조를 명기하는 언어
+Tag등을 이용하여 문서나 data 구조를 작성하는 언어
+* HTML이나 XML등이 Markup 언어에 해당
+
+### Markdown language?
+Markup 언어 종류의 하나로 Markup 문법을 좀 더 쉽게 변경한 언어. 읽기와 쓰기가 쉽다는 장점을 가지고 있음.
+* .md
 
 ### How to install
 1. Ruby download
