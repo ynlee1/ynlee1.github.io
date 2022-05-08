@@ -11,11 +11,10 @@ tags:
 ---
 
 ### 1. Chrome 상단에서 Metamask 클릭
-Metamask wallet click
-![image](https://user-images.githubusercontent.com/90759236/167300005-3608e4fb-27af-4f9f-8d97-afd56ecb387d.png)
+![image](https://user-images.githubusercontent.com/90759236/167300258-4472a537-688d-4a0c-9fe9-346575f7a90e.png)
 
 ### 2. Network dropdown menu를 선택, "네트워크 추가" 선택
-![image](https://user-images.githubusercontent.com/90759236/167300057-d6b492db-cfff-4497-a1ab-46bf94fa5af9.png)
+![image](https://user-images.githubusercontent.com/90759236/167300238-d2bc9884-762c-4202-9f4e-b08d58af4f5e.png)
 
 ### 3. 아래 Klaytn Network 정보를 입력 후 "저장" 클릭
 * Network Name: Klaytn Mainnet
