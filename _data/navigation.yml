@@ -40,7 +40,7 @@ docs:
   - title: "Blockchain"
     children:
     - title: "Blockchain Info"
-      url: categories/blockchain-info
+      url: categories/blockchain
       category: "blockchain"
     - title: "Metamask"
       url: categories/metamask
