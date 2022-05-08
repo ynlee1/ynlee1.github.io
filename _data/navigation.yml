@@ -36,3 +36,12 @@ docs:
     - title: "Windows"
       url: categories/windows
       category: "windows"
+
+  - title: "Blockchain"
+    children:
+    - title: "Blockchain Info"
+      url: categories/blockchain-info
+      category: "blockchain"
+    - title: "Metamask"
+      url: categories/metamask
+      category: "metamask"
