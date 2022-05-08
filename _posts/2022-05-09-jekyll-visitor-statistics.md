@@ -35,7 +35,10 @@ https://analytics.google.com/
 * 보고 시간대: "대한민국/대한민국 시간" 선택
 * 통화: "대한민국 원 (KRW)" 선택
 <img src="https://user-images.githubusercontent.com/90759236/167304569-fb24faf1-1645-42fc-9f94-6a3fc9a75a76.png" style="border: 1px solid grey"><br>
-추후에 관리 메뉴에서 속성 세부정보를 수정할 수 있습니다.
+또한 고급 옵션에서 아래 내용 추가가 필요합니다.
+* Jekyll minimal-mistakes는 Google Analystics 4를 지원하지 않는 것으로 보입니다. 
+  * 2023년 7월 1일부터 UA 속성 데이터를 수집하지 않는다고 합니다. 다른 방법을 찾아보는 것이 필요할 것 같습니다.
+<img src="https://user-images.githubusercontent.com/90759236/167307429-a257e4c6-1401-4dc7-8b84-2c716d2dc255.png" style="border: 1px solid grey"><br>
 
 ### 4. 비지니스 정보
 중요한 건 아닌 것 같아 대충(?) 선택해줬습니다.
@@ -60,13 +63,18 @@ https://analytics.google.com/
 <img src="https://user-images.githubusercontent.com/90759236/167305335-dc75f8de-2c91-4506-981c-5b02e32f7bc2.png" style="border: 1px solid grey">
 
 ## _config.yml에 측정 ID 작성
-아래 코드 처럼 _config.yml를 변경 후 commit/push해주세요.
+아래 코드 처럼 _config.yml를 변경 후 commit/push해주세요.<br>
 ```sh
 # Analytics
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-9BTQ75PPCD"
+    tracking_id          : "UA-XXXXXXXXX-X"
     anonymize_ip         : # true, false (default)
 ```
-## 모든 setting이 끝나고 적당한 시간이 지나면(최대 24시간 인 것 같습니다.) Google Analytics에서 방문자 수를 확인할 수 있습니다.
+UA tracking_id는 애널리틱스 옆 계정 정보를 클릭하면 보실 수 있습니다.
+<img src="https://user-images.githubusercontent.com/90759236/167307516-f58b0266-5986-46b7-9fcb-bb72ca07746a.png" style="border: 1px solid grey">
+
+## 확인 방법
+모든 setting이 끝나고 적당한 시간이 지나면 Google Analytics의 UA에서 웹사이트 데이터를 확인할 수 있습니다.
+<img src="https://user-images.githubusercontent.com/90759236/167307639-0b770872-17df-4fb2-bb2e-e5332f30227d.png" style="border: 1px solid grey">
