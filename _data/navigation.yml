@@ -25,6 +25,12 @@ docs:
       url: categories/github-action
       category: "github-action"
 
+  - title: "Language"
+    children: 
+    - title: "Markdown"
+      url: categories/markdown
+      category: "markdown"
+
   - title: "Database"
     children:
     - title: "TSQL"
@@ -45,3 +51,9 @@ docs:
     - title: "Metamask"
       url: categories/metamask
       category: "metamask"
+
+  - title: "Etc"
+    children:
+    - title: "Jekyll"
+      url: categories/jekyll
+      category: "jekyll"

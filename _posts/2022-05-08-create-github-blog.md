@@ -1,12 +1,13 @@
 ---
 published: true
-title: "minimal-mistake 를 이용한 GitHub Blog 설치"
-last_modified_at: 2022-05-08T02:10:00
+title: "GitHub Blog with minimal-mistake"
+last_modified_at: 2022-05-09
 categories:
-  - github
+  - jekyll
 tags:
   - github
-  - Jekyll
+  - jekyll
+  - minimal-mistake
 ---
 
 ## Minimal-mistake
@@ -23,7 +24,7 @@ Tag등을 이용하여 문서나 data 구조를 명기하는 언어
     - Jekyll이 32bit이기 때문에 x86으로 설치
     - with devkit으로 설치
     - [Download Link](https://rubyinstaller.org/downloads/)<br>
-    ![image](https://user-images.githubusercontent.com/90759236/167263822-5d2c6961-9d24-494f-a513-e07ac76c5faf.png)
+    <img src="https://user-images.githubusercontent.com/90759236/167263822-5d2c6961-9d24-494f-a513-e07ac76c5faf.png" style="border: 1px solid grey">
 
 2. Install Jekyll
     - Windows Powershell이나 cmd에서 아래 command 실행
@@ -66,6 +67,6 @@ github로 push해서 link로 확인하는 방법도 있지만, 이는 딜레이�
     ```
 
 9. http://127.0.0.1:4000 접속해서 정상 동작하는지 확인
-![image](https://user-images.githubusercontent.com/90759236/167263882-8c4abc3f-583a-491e-b4ec-34e57a7ed19c.png)
+<img src="https://user-images.githubusercontent.com/90759236/167263882-8c4abc3f-583a-491e-b4ec-34e57a7ed19c.png" style="border: 1px solid grey">
 
-10. _config.yml에서 기본 설정 후 commit & push. [github account].github.io에 정상 반영 여부 확인
+1.  _config.yml에서 기본 설정 후 commit & push. [github account].github.io에 정상 반영 여부 확인
