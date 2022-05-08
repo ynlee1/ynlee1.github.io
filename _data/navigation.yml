@@ -2,11 +2,31 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+docs:
+  - title: "Configuration Management"
+    children:
+    - title: "Git"
+      url: categories/git
+      category: "git"
+    - title: "GitHub"
+      url: categories/github
+      category: "github"
+
+  - title: "CI/CD"
+    children:
+    - title: "Docker"
+      url: categories/docker
+      category: "docker"
+    - title: "Jenkins"
+      url: categories/jenkins
+      category: "jenkins"
+    - title: "GitHub Action"
+      url: categories/github-action
+      category: "github-action"
+
+  - title: "Database"
+    children:
+    - title: "TSQL"
+      url: categories/tsql
+      category: "tsql"
