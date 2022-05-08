@@ -104,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "Yoonyeong Lee"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/ynlee1.jpg"
   bio              : "better late than never."
   location         : "Seoul, Republic of Korea"
   email            : "nyeong0219@gmail.com"
