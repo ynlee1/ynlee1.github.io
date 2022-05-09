@@ -1,7 +1,7 @@
 ---
 published: true
-title: "Create git repository"
-last_modified_at: 2022-05-08
+title: "[Git] Create git repository"
+last_modified_at: 2022-05-09
 categories:
   - git
 tags:
