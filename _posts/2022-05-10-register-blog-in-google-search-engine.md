@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Jekyll] Register Jekyll blog in google search engine"
-last_modified_at: 2022-05-10T14:43:00
+last_modified_at: 2022-05-10T14:50:00
 categories:
   - jekyll
 tags:
@@ -29,7 +29,7 @@ tags:
 <img src="https://user-images.githubusercontent.com/90759236/167545812-dcb5bd7a-a3b0-4547-ab16-fd91008e75cb.png" style="border: 1px solid grey">
 
 ### 5. Jekyll code 내에 sitemap.xml 추가
-만약 Jekyll에서 자동으로 sitemap.xml을 생성했다면 따로 추가할 필요 없지만, 만약 sitemap.xml이 source code 최상단 directory에 존재하지 않는다면 아래 내용과 함께 파일 추가, commit & push.
+Jekyll minimal mistakes 기준 sitemap.xml은 자동으로 생성됩니다. sitemap.xml을 따로 추가할 필요는 없습니다. 확인 방법은 https://{github account}.github.io/sitemap.xml을 접속해보면 알 수 있습니다. 만약 해당 URL 접근시 404 error가 발생한다면, Jekyll source code 최상단 directory에 sitemap.xml 생성 및 아래 script 작성 후 commit & push 하시기 바랍니다.
 ```sh
 ---
 layout: null
