@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Jekyll] Register Jekyll blog in google search engine"
-last_modified_at: 2022-05-10T14:50:00
+last_modified_at: 2022-05-10T14:56:00
 categories:
   - jekyll
 tags:
@@ -29,38 +29,8 @@ tags:
 <img src="https://user-images.githubusercontent.com/90759236/167545812-dcb5bd7a-a3b0-4547-ab16-fd91008e75cb.png" style="border: 1px solid grey">
 
 ### 5. Jekyll code 내에 sitemap.xml 추가
-Jekyll minimal mistakes 기준 sitemap.xml은 자동으로 생성됩니다. sitemap.xml을 따로 추가할 필요는 없습니다. 확인 방법은 https://{github account}.github.io/sitemap.xml을 접속해보면 알 수 있습니다. 만약 해당 URL 접근시 404 error가 발생한다면, Jekyll source code 최상단 directory에 sitemap.xml 생성 및 아래 script 작성 후 commit & push 하시기 바랍니다.
-```sh
----
-layout: null
----
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
-
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
-
-    </url>
-  {% endfor %}
-</urlset>
-```
+Jekyll minimal mistakes 기준 sitemap.xml은 자동으로 생성됩니다. sitemap.xml을 따로 추가할 필요는 없습니다.
+* 확인 방법: https://{github account}.github.io/sitemap.xml 접속
 
 ### 6. 색인 생성 요청
 GitHub blog url과 사이트맵에 대한 색인 생성 요청
