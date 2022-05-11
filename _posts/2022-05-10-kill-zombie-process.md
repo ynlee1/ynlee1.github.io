@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[linux] How to kill zombie process"
-last_modified_at: 2022-05-11T16:13:00
+last_modified_at: 2022-05-11T17:21:00
 categories:
   - linux
 tags:
@@ -29,7 +29,7 @@ top -b -n 1 | grep zombie
 ps -ef | grep defunct | grep -v grep | wc -l
 ```
 
-### 모든 Zombie process 죽이기
+### 모든 zombie process 죽이기
 ```sh
 ps -ef | grep defunct | awk '{print $3}' | xargs kill -9
 ```
