@@ -1,7 +1,7 @@
 ---
 published: true
-title: "[linux] How to kill zombie process"
-last_modified_at: 2022-05-11T17:21:00
+title: "[Linux] How to kill zombie process"
+last_modified_at: 2022-05-12T00:00:00
 categories:
   - linux
 tags:
@@ -35,7 +35,7 @@ ps -ef | grep defunct | awk '{print $3}' | xargs kill -9
 ```
 
 ### Tip!. 강제로 zombie process 만들기
-아래 코드는 zombie process를 만드는 간단한 C 코드로 child process가 종료되었지만 parent process가 handling을 할 수 없어, parent process의 sleep이 종료될 때까지 zombie process가 존재하는 코드입니다.
+아래 코드는 zombie process를 만드는 간단한 C 코드로 child process가 종료되었지만 parent process가 handling을 할 수 없어, parent process가 종료되기 전까지 zombie process가 존재하는 코드입니다.
 <script src="https://gist.github.com/ynlee1/841b136bbbe1f7677e3369237c77fffe.js"></script>
 
 ### Tip!. Defunct process, Orphan process란?
