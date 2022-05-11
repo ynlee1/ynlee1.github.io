@@ -38,6 +38,12 @@ docs:
       url: categories/tsql
       category: "tsql"
 
+  - title: "Linux"
+    children:
+    - title: "Linux"
+      url: categories/linux
+      category: "linux"
+
   - title: "Windows"
     children:
     - title: "Windows"
