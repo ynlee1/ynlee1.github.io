@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ynlee1.github.io/sitemap.xml
