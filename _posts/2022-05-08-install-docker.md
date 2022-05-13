@@ -1,11 +1,13 @@
 ---
 published: true
 title: "How to install docker"
-last_modified_at: 2022-05-08
+date: 2022-05-08
+last_modified_at: 2022-05-13T13:04:00
 categories:
   - docker
 tags:
   - docker
+  - linux
 ---
 
 ## 최소 사양
