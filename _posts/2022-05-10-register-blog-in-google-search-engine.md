@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Jekyll] Register Jekyll blog in google search engine"
-last_modified_at: 2022-05-10T14:56:00
+last_modified_at: 2022-05-16T11:05:00
 categories:
   - jekyll
 tags:
@@ -47,11 +47,17 @@ GitHub blog url과 사이트맵에 대한 색인 생성 요청
 
 ### 7. 새 사이트맵 추가
 URL이 Google에 등록되면, 새 사이트맵을 추가<br>
-(아직 제 blog가 Google에 등록되지 않았습니다. 등록 완료 후 해당 부분이 맞는지 업데이트 예정입니다.)
+~~(아직 제 blog가 Google에 등록되지 않았습니다. 등록 완료 후 해당 부분이 맞는지 업데이트 예정입니다.)~~<br>
+(2022-05-16 Update) 제 blog의 sitemap 반영 시간이 5일 정도(sitemap 색인생성 후)) 걸린 것 같습니다. 아래 이미지처럼 다른 추가 에러 없이 "사이트맵을 읽을 수 없음"이란 에러가 뜨는 경우는 본인 sitemap.xml이나 셋팅 상의 문제가 아니며, <b>시간을 가지고 기다리면 추후에 추가할 수 있습니다(검색 결과 최대 1달까지 걸릴 수 있다고 합니다)</b>.
+<img src="https://user-images.githubusercontent.com/90759236/168506528-9ba213fb-6632-4299-9bff-910dc9aa972d.png" style="border: 1px solid grey">
+
 1. 좌측 메뉴에서 "Sitemap" 선택<br>
 <img src="https://user-images.githubusercontent.com/90759236/167554859-bd17c5c4-1469-4588-87af-3542ab52c0cb.png" style="border: 1px solid grey">
 
-2. 새 사이트맵 추가. sitemap.xml 입력 및 "제출" 선택<br>
+2. 새 사이트맵 추가. sitemap.xml 혹은 sitemap 입력 및 "제출" 선택<br>
 <img src="https://user-images.githubusercontent.com/90759236/167554958-2e00b896-b230-4c4b-a229-a57f222b2dd2.png" style="border: 1px solid grey">
+   - (2022-05-16 Update) 제 경우에는 sitemap.xml은 추가가 안되며 sitemap만 추가가 됩니다. 이는 아마도 Jekyll에서 자동 생성한 sitemap을 사용해서 그런 것으로 보이며, 다른 blog 검색 결과처럼 수동으로 sitemap.xml을 추가하는 경우에는 sitemap.xml을 입력해 줘야 하는 것 같습니다.
+   <img src="https://user-images.githubusercontent.com/90759236/168506638-3433c47e-23bf-4e2a-8b43-64914e7bccd1.png" style="border: 1px solid grey">
+
 
 
