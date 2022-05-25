@@ -27,7 +27,7 @@ git clone --mirror {old_repository_url}
 위 단계에서 mirror clone한 repository를 새로 만든 repository로 push합니다.
 ```sh
 cd {old_repository_name}.git
-git remote set-url --push orign {new_repository_url}
+git remote set-url --push origin {new_repository_url}
 git push --mirror
 ```
 
