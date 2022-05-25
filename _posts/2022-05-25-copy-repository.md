@@ -38,7 +38,7 @@ GitHub에서 새로운 repository 생성 방법은 아래 post를 참조하시�
 - - -
 {% assign posts = site.categories.github %}
 {% for post in posts %}
-  {% if post.title contains 'Create git repository' %}
+  {% if post.title contains 'repository' %}
     {% include archive-single.html type=page.entries_layout %}
   {% endif %} 
 {% endfor %}
