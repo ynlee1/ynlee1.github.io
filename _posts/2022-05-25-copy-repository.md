@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Git] 기존에 존재하는 repository 복제 방법 (Fork방식이 아닌)"
-last_modified_at: 2022-05-25T12:49:00
+last_modified_at: 2022-05-25T13:13:00
 categories:
   - git
 tags:
@@ -38,6 +38,6 @@ GitHub에서 새로운 repository 생성 방법은 아래 post를 참조하시�
 {% assign posts = site.categories.github %}
 {% for post in posts %}
   {% if post.title contains 'Token' %}
-    <li>{% include archive-single.html type=page.entries_layout %}</li>
+    {% include archive-single.html type=page.entries_layout %}
   {% endif %} 
 {% endfor %}
