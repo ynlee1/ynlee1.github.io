@@ -64,3 +64,9 @@ docs:
     - title: "Jekyll"
       url: categories/jekyll
       category: "jekyll"
+  
+  - title: "Certificate"
+    children:
+    - title: "Certificate"
+      url: categories/certificate
+      category: "certificate"
