@@ -1,7 +1,7 @@
 ---
 published: true
-title: "[Certificate] 리눅스마스터 자격증"
-last_modified_at: 2022-05-25T08:35:00
+title: "[Certificate] 리눅스마스터 자격증 준비"
+last_modified_at: 2022-05-25T15:24:00
 categories:
   - certificate
 tags:
