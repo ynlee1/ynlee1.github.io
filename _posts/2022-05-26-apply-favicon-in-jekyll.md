@@ -18,14 +18,14 @@ Favorite Icon의 약자로 웹페이지에 접속했을 때, 상단 탭에 보�
 
 ### <u>나만의 Favicon 만들기</u>
 아래 사이트에서 favicon을 직접 만들 수 있다고 합니다. ~~(저는 귀찮아서 안해봤습니다)~~ <br>
-http://www.degraeve.com/favicon/
+<http://www.degraeve.com/favicon/>
 
 ### <u>원하는 이미지 찾기</u>
 저는 아래 blog에 있는 정보를 보고, 그 중 Flaticon(플랫아이콘)이라는 곳에서 무료 아이콘을 하나 받았습니다. <br>
-https://blog.wishket.com/%EC%A0%80%EC%9E%91%EA%B6%8C-%EA%B1%B1%EC%A0%95-%EC%97%86%EB%8A%94-%EB%AC%B4%EB%A3%8C-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%82%AC%EC%9D%B4%ED%8A%B8/
+<https://blog.wishket.com/%EC%A0%80%EC%9E%91%EA%B6%8C-%EA%B1%B1%EC%A0%95-%EC%97%86%EB%8A%94-%EB%AC%B4%EB%A3%8C-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%82%AC%EC%9D%B4%ED%8A%B8/>
 
 ### <u>Favicon 만들기</u>
-1. https://realfavicongenerator.net/ 에 접속해서 방금 받은 icon 이미지를 선택해줍니다. <br>
+1. <https://realfavicongenerator.net/> 에 접속해서 방금 받은 icon 이미지를 선택해줍니다. <br>
 <img src="https://user-images.githubusercontent.com/90759236/170417750-64855f7e-da5e-4fd8-827b-2f4b616e2eb7.png" style="border: 1px solid grey; max-width: 80%; height: auto;"> <br>
 
 2. <b>"Select your Favicon image"</b>를 누르고 icon 이미지를 선택해주면 아래 화면이 나옵니다.<br>
