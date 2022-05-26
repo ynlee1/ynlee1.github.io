@@ -59,6 +59,7 @@ Favorite Icon의 약자로 웹페이지에 접속했을 때, 상단 탭에 보�
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
+{% raw %}
 <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/images/favicon-16x16.png">
@@ -66,7 +67,7 @@ Favorite Icon의 약자로 웹페이지에 접속했을 때, 상단 탭에 보�
 <link rel="mask-icon" href="{{site.baseurl}}/assets/images/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-
+{% endraw %}
 <!-- end custom head snippets -->
 ```
 
