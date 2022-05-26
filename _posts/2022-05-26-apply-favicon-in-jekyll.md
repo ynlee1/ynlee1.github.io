@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Jekyll] Favicon 적용하기"
-last_modified_at: 2022-05-26T13:16:00
+last_modified_at: 2022-05-26T15:21:00
 categories:
   - jekyll
 tags:
@@ -39,7 +39,7 @@ Favorite Icon의 약자로 웹페이지에 접속했을 때, 상단 탭에 보�
 
 ### <u>Jekyll에 favicon 적용</u>
 <i>_includes/_head/custom.html</i>에 위에서 복사한 HTML을 붙여넣기 해줍니다.
-```sh
+```html
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
@@ -55,7 +55,7 @@ Favorite Icon의 약자로 웹페이지에 접속했을 때, 상단 탭에 보�
 ```
 위에서 바꿔야 할 내용이 있는데 바로 `href` tag입니다. 저는 보통 image들을 assets/images에 두는데, 해당 경로에 위에서 생성 후 다운 받은 favicon 파일들을 넣고 위 HTML의 `href`를 수정해줍니다.
 
-```sh
+```html
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
