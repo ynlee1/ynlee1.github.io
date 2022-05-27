@@ -18,13 +18,13 @@ Liquid는 Ruby 기반의 open source template 언어로 동적 컨텐츠를 load
 <https://shopify.github.io/liquid/basics/introduction/> <br>
 
 그래서 실제 HTML code를 Markdown에 작성할 때 이중 중괄호가 liquid문법에서 처리되지 않도록 예외처리를 해줘야 하는데 이를 위해 사용하는 liquid 태그가 있습니다.<br>
-==> <b>\{% raw %\}</b>와 <b>\{% endraw %\}</b>
+==> <b>\{\% raw \%\}</b>와 <b>\{\% endraw \%\}</b>
 <br>
 `raw` tag는 임시로 tag 처리를 비활성화 해주는 역할을 하며 아래처럼 사용하시면 됩니다.
 ```html
-\{% raw %\}
+\{\% raw \%\}
 <link rel="apple-touch-icon" sizes="180x180" href="\{\{site.baseurl\}\}/assets/images/apple-touch-icon.png">
-\{% endraw %\}
+\{\% endraw \%\}
 ```
 
 

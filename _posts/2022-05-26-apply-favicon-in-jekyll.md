@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Jekyll] Favicon 적용하기"
-last_modified_at: 2022-05-26T15:24:00
+last_modified_at: 2022-05-26T15:44:00
 categories:
   - jekyll
 tags:
@@ -71,5 +71,5 @@ Favorite Icon의 약자로 웹페이지에 접속했을 때, 상단 탭에 보�
 <!-- end custom head snippets -->
 ```
 
-### 적용 후 실제 변경 확인
+### <u>적용 후 실제 변경 확인</u>
 <img src="https://user-images.githubusercontent.com/90759236/170428427-2c6e8208-e2de-4c4c-9f29-23ada491a66f.png" style="border: 1px solid grey; max-width: 80%; height: auto;"> <br>
