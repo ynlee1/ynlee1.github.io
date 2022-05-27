@@ -23,7 +23,7 @@ Liquid는 Ruby 기반의 open source template 언어로 동적 컨텐츠를 load
 `raw` tag는 임시로 tag 처리를 비활성화 해주는 역할을 하며 아래처럼 사용하시면 됩니다.
 ```html
 {% raw %}{%{% endraw %} raw %}
-<link rel="apple-touch-icon" sizes="180x180" href="\{\{site.baseurl\}\}/assets/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/images/apple-touch-icon.png">
 {% raw %}{%{% endraw %} endraw %}
 ```
 
