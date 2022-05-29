@@ -20,6 +20,7 @@ Markdown 작성 시 GitHub의 discussion이나 issue를 이용해 간단하게 �
 본인이 편한 방법대로 이미지를 캡처합니다.<br>
 저는 예제로 제 blog 화면을 캡처했습니다.<br>
 이미지 캡처에 관련된 내용은 아래 post 참조하시기 바랍니다.<br>
+
 ---
 {% assign posts = site.categories.windows %}
 {% for post in posts %}
@@ -39,8 +40,9 @@ Markdown 작성 시 GitHub의 discussion이나 issue를 이용해 간단하게 �
 
 4. 해당 code를 그대로 markdown에 작성하면 이미지가 삽입됩니다.
 Markdown에서 image 삽입에 경계선을 넣는 방법은 아래의 post를 참조하시기 바랍니다!
+
 ---
-{% assign posts = site.categories.windows %}
+{% assign posts = site.categories.markdown %}
 {% for post in posts %}
   {% if post.title contains 'Insert image border in Markdown' %}
     {% include archive-single.html type=page.entries_layout %}
