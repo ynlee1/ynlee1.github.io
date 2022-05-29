@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Jekyll] Minimal Mistake에서 font 및 font size 변경 방법"
-last_modified_at: 2022-05-29T19:16:00
+last_modified_at: 2022-05-29T23:43:00
 categories:
   - jekyll
 tags:
@@ -16,14 +16,14 @@ Font를 변경해볼까 하고 font 변경 방법에 대해 찾아봤습니다. 
 <https://fonts.google.com/> <br>
 
 일단 언어는 한국어로 셋팅하고, 나오는 폰트 중 하나를 골라줍니다. 저는 나눔고딕으로 설정했습니다.
-<img src="https://user-images.githubusercontent.com/90759236/170866203-1cc5ad0e-52aa-42c3-aa46-9df0ca3e7369.png" style="border: 1px solid grey; max-width: 80%; height: auto;"><br>
+<img src="https://user-images.githubusercontent.com/90759236/170866203-1cc5ad0e-52aa-42c3-aa46-9df0ca3e7369.png" style="border: 1px solid grey; max-width: 70%; height: auto;"><br>
 
 폰트를 고르면 아래처럼 두깨를 고를 수 있고, 실제 테스트도 가능합니다. 저는 Regular 400, Bold 700, ExtraBold 800을 선택했습니다. 오른쪽에 있는 "<u>Select this style</u>"를 선택해줍니다.<br>
-<img src="https://user-images.githubusercontent.com/90759236/170866395-fa9c1a19-1f5e-4a30-bd6d-37933ffd2780.png" style="border: 1px solid grey; max-width: 80%; height: auto;"><br>
-<img src="https://user-images.githubusercontent.com/90759236/170866405-36d78196-743f-490a-9127-87cdb2fc6cd6.png" style="border: 1px solid grey; max-width: 80%; height: auto;"><br>
+<img src="https://user-images.githubusercontent.com/90759236/170866395-fa9c1a19-1f5e-4a30-bd6d-37933ffd2780.png" style="border: 1px solid grey; max-width: 70%; height: auto;"><br>
+<img src="https://user-images.githubusercontent.com/90759236/170866405-36d78196-743f-490a-9127-87cdb2fc6cd6.png" style="border: 1px solid grey; max-width: 70%; height: auto;"><br>
 
-우측에 팝업창이 나오면, Use on the web에서 "<u>@import</u>"를 선택해줍니다.
-<img src="https://user-images.githubusercontent.com/90759236/170870374-720f10ed-67df-47f9-80f7-e4d7165dbf49.png" style="border: 1px solid grey; max-width: 80%; height: auto;"><br>
+우측에 팝업창이 나오면, Use on the web에서 "<u>@import</u>"를 선택해줍니다. <br>
+<img src="https://user-images.githubusercontent.com/90759236/170870374-720f10ed-67df-47f9-80f7-e4d7165dbf49.png" style="border: 1px solid grey; max-width: 60%; height: auto;"><br>
 
 이제 위에 있는 `@import url`과 `CSS rule`을 이용해 코드를 변경해봅시다!<br>
 구글링을 해보면 방법이 좀 다양한데, 저는 아래와 같은 방법을 사용했습니다. 
