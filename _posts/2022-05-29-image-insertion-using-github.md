@@ -50,3 +50,4 @@ Markdown에서 image 삽입에 경계선을 넣는 방법은 아래의 post를 �
 {% endfor %}
 
 ---
+{{ site.baseurl }}{% post_url 2022-05-09 insert-image-border-in-markdown %}
