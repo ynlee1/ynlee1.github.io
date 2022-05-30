@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Markdown] 이미지를 markdown에 간단하게 추가하는 방법"
-last_modified_at: 2022-05-30T13:13:00
+last_modified_at: 2022-05-30T14:37:00
 categories:
   - markdown
 tags:
@@ -50,6 +50,3 @@ Markdown에서 image 삽입에 경계선을 넣는 방법은 아래의 post를 �
 {% endfor %}
 
 ---
-
----
-{% linkpreview "https://ynlee1.github.io/markdown/insert-image-border-in-markdown/" %}
