@@ -52,4 +52,4 @@ Markdown에서 image 삽입에 경계선을 넣는 방법은 아래의 post를 �
 ---
 
 ---
-{% linkpreview https://ynlee1.github.io/markdown/insert-image-border-in-markdown/ %}
+\{ % linkpreview "https://ynlee1.github.io/markdown/insert-image-border-in-markdown/" % \}
