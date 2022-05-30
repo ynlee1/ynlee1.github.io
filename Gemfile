@@ -5,7 +5,9 @@ gemspec
 gem 'tzinfo'
 gem 'tzinfo-data'
 
-gem 'jekyll-sitemap'
-gem 'jekyll-feed'
-gem 'jekyll-seo-tag'
-gem 'jekyll-linkpreview'
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-linkpreview'
+end 
