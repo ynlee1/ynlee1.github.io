@@ -1,0 +1,52 @@
+.jekyll-linkpreview-wrapper {
+  max-width: 1200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.jekyll-linkpreview-wrapper-inner {
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 12px;
+}
+
+.jekyll-linkpreview-content {
+  position: relative;
+  height: 120px;
+  /* overflow: hidden; */
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.jekyll-linkpreview-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.jekyll-linkpreview-image img {
+  width: 130px;
+  height: 130px;
+}
+
+.jekyll-linkpreview-body {
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+h2.jekyll-linkpreview-title{
+  font-size: 20px;
+  margin-top: 2px;
+  margin: 0 0 2px;
+  line-height: 1.3;
+  /* display:block; Add this  */
+}
+
+.jekyll-linkpreview-description {
+  line-height: 1.5;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.jekyll-linkpreview-footer {
+  font-size: 0px;
+} 
