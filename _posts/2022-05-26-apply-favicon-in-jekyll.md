@@ -3,7 +3,7 @@ published: true
 title: "[Jekyll] Favicon 적용하기"
 last_modified_at: 2022-05-30T15:28:00
 toc: true
-toc_stricky: true
+toc_sticky: true
 categories:
   - jekyll
 tags:
