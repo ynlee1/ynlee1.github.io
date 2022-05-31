@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Linux] Get memory Information"
-last_modified_at: 2022-05-31T10:42:00
+last_modified_at: 2022-05-31T13:38:00
 toc: true
 toc_sticky: true
 categories:
