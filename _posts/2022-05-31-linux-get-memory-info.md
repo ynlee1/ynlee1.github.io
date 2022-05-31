@@ -19,6 +19,7 @@ tags:
 일반적으로 새로운 application을 실행하기 위해 사용할 수 있는 memory 양을 확인하기 위해 많이 쓰이며, <br>
 모든 정보들은 <i>/proc/meminfo</i>의 정보들을 이용해 구성된 값입니다. <br>
 아무 option 없이 실행했을 때에는 kb 단위 값들을 보여 줍니다. <br><br>
+
 ```
 $ free
               total        used        free      shared  buff/cache   available
@@ -42,6 +43,7 @@ Swap:             0           0           0
 <li><i>Swapping은 memory가 부족할 경우 하드 디스크의 일부 공간을 활용하여 작업을 도와주는 것을 말하며, memory 공간 부족 방지를 위해 사용합니다.</i><br><br>
 
 `free` command의 option은 아래와 같습니다. <br>
+
 ```
 $ free --h
 
@@ -75,6 +77,7 @@ Options:
 ### <u>/proc/meminfo</u>
 `cat` command와 보통 함께 쓰며, 사용 가능한 memory와 사용된 memory 양을 보고하는 가상 file입니다. <br>
 시스템의 메모리 사용량과 kernel에서 사용하는 buffer 및 공유 memory에 대한 <b>실시간 정보</b>를 보여주며, 출력 방식은 architecture나 OS마다 조금 씩 다릅니다. <br>
+
 ```
 $ cat /proc/meminfo
 
