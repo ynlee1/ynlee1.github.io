@@ -1,7 +1,7 @@
 ---
 published: true
 title: "[Linux] Get memory Information"
-last_modified_at: 2022-05-31T13:44:00
+last_modified_at: 2022-05-31T14:01:00
 toc: true
 toc_sticky: true
 categories:
@@ -20,7 +20,9 @@ tags:
 모든 정보들은 <i>/proc/meminfo</i>의 정보들을 이용해 구성된 값입니다. <br>
 아무 option 없이 실행했을 때에는 kb 단위 값들을 보여 줍니다. <br><br>
 
-`free`
+```sh
+$ free
+```
 ![image](https://user-images.githubusercontent.com/90759236/171095851-f008f52f-4371-4101-845d-1a27ddbbb506.png) <br>
 
 아래는 각 필드의 정의 입니다. <br>
@@ -40,7 +42,10 @@ tags:
 
 `free` command의 option은 아래와 같습니다. <br>
 
-`free --h`
+```sh
+$ free -help
+```
+
 <img src="https://user-images.githubusercontent.com/90759236/171094381-ac1a69e9-3ac0-45bb-b2e1-f28f95aa7cd2.png"> <br>
 
 
