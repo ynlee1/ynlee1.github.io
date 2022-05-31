@@ -26,7 +26,7 @@ $ free
 Mem:       32887408     7040376     3945688     6588732    21901344    18786800
 Swap:             0           0           0
 ```
-<br>
+
 아래는 각 필드의 정의 입니다. <br>
 
 |` field `|` description `|
@@ -47,7 +47,8 @@ Swap:             0           0           0
 ```sh
 $ free --h
 ```
-![image](https://user-images.githubusercontent.com/90759236/171094381-ac1a69e9-3ac0-45bb-b2e1-f28f95aa7cd2.png)
+
+<img src="https://user-images.githubusercontent.com/90759236/171094381-ac1a69e9-3ac0-45bb-b2e1-f28f95aa7cd2.png"> <br>
 
 ### <u>/proc/meminfo</u>
 `cat` command와 보통 함께 쓰며, 사용 가능한 memory와 사용된 memory 양을 보고하는 가상 file입니다. <br>
@@ -56,7 +57,8 @@ $ free --h
 ```sh
 $ cat /proc/meminfo
 ```
-<img src="https://user-images.githubusercontent.com/90759236/171094213-d2ac3569-9174-4fbc-b148-0dc17c050bc2.png">
+
+<img src="https://user-images.githubusercontent.com/90759236/171094213-d2ac3569-9174-4fbc-b148-0dc17c050bc2.png"> <br>
 
 
 ## Reference
