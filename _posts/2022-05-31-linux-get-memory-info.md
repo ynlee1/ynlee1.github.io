@@ -20,12 +20,8 @@ tags:
 모든 정보들은 <i>/proc/meminfo</i>의 정보들을 이용해 구성된 값입니다. <br>
 아무 option 없이 실행했을 때에는 kb 단위 값들을 보여 줍니다. <br><br>
 
-```sh
-$ free
-              total        used        free      shared  buff/cache   available
-Mem:       32887408     7040376     3945688     6588732    21901344    18786800
-Swap:             0           0           0
-```
+`free`
+![image](https://user-images.githubusercontent.com/90759236/171095851-f008f52f-4371-4101-845d-1a27ddbbb506.png) <br>
 
 아래는 각 필드의 정의 입니다. <br>
 
@@ -40,15 +36,13 @@ Swap:             0           0           0
 | buff/cache | Buffers + Cache |
 | available | Swapping 없이 새 응용 프로그램을 시작하는 데 사용할 수 있는 메모리 양(추정값) |
 
-<li><i>Swapping은 memory가 부족할 경우 하드 디스크의 일부 공간을 활용하여 작업을 도와주는 것을 말하며, memory 공간 부족 방지를 위해 사용합니다.</i><br><br>
+<li><i>Swapping은 memory가 부족할 경우 하드 디스크의 일부 공간을 활용하여 작업을 도와주는 것을 말하며, memory 공간 부족 방지를 위해 사용합니다.</i></li><br><br>
 
 `free` command의 option은 아래와 같습니다. <br>
 
-```sh
-$ free --h
-```
-
+`free --h`
 <img src="https://user-images.githubusercontent.com/90759236/171094381-ac1a69e9-3ac0-45bb-b2e1-f28f95aa7cd2.png"> <br>
+
 
 ### <u>/proc/meminfo</u>
 `cat` command와 보통 함께 쓰며, 사용 가능한 memory와 사용된 memory 양을 보고하는 가상 file입니다. <br>
