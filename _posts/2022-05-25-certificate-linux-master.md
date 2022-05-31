@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Certificate] 리눅스마스터 자격증 준비"
-last_modified_at: 2022-05-25T15:24:00
+last_modified_at: 2022-05-31T08:33:00
+toc: true
+toc_sticky: true
 categories:
   - certificate
 tags:
@@ -47,5 +49,5 @@ tags:
 혹 리눅스에 익숙하지 않거나, 처음이신 분들은 기출문제 공부가 아닌 책을 통한 공부를 추천 드립니다.
 
 ## Reference
-나무위키: https://namu.wiki/w/%EB%A6%AC%EB%88%85%EC%8A%A4%20%EB%A7%88%EC%8A%A4%ED%84%B0<br>
-한국정보통신진흥협회: https://www.ihd.or.kr/introducesubject1.do
+나무위키: <https://namu.wiki/w/%EB%A6%AC%EB%88%85%EC%8A%A4%20%EB%A7%88%EC%8A%A4%ED%84%B0><br>
+한국정보통신진흥협회: <https://www.ihd.or.kr/introducesubject1.do>

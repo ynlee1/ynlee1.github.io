@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Jenkins] Dynamic stages in Jenkins pipeline"
-last_modified_at: 2022-05-29T23:57:00
+last_modified_at: 2022-05-31T08:33:00
+toc: true
+toc_sticky: true
 categories:
   - jenkins
 tags:

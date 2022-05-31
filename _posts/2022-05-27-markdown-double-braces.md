@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Jekyll] Markdown에서 이중 중괄호가 안보이는 이슈 해결"
-last_modified_at: 2022-05-27T14:51:00
+last_modified_at: 2022-05-31T08:33:00
+toc: true
+toc_sticky: true
 categories:
   - jekyll
 tags:

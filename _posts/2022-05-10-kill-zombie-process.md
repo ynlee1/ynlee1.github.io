@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Linux] How to kill zombie process"
-last_modified_at: 2022-05-12T00:00:00
+last_modified_at: 2022-05-31T08:32:00
+toc: true
+toc_sticky: true
 categories:
   - linux
 tags:

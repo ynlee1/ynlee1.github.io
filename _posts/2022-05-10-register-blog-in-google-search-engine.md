@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Jekyll] Register Jekyll blog in google search engine"
-last_modified_at: 2022-05-16T11:05:00
+last_modified_at: 2022-05-31T08:32:00
+toc: true
+toc_sticky: true
 categories:
   - jekyll
 tags:

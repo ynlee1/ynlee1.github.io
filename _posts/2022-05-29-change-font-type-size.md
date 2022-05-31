@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Jekyll] Minimal Mistake에서 font 및 font size 변경 방법"
-last_modified_at: 2022-05-29T23:43:00
+last_modified_at: 2022-05-31T08:33:00
+toc: true
+toc_sticky: true
 categories:
   - jekyll
 tags:

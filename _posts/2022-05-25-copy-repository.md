@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Git] 기존에 존재하는 repository 복제 방법 (Fork방식이 아닌)"
-last_modified_at: 2022-05-25T15:24:00
+last_modified_at: 2022-05-31T08:33:00
+toc: true
+toc_sticky: true
 categories:
   - git
 tags:

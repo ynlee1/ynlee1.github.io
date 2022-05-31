@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Windows] Install WSL"
-last_modified_at: 2022-05-08
+last_modified_at: 2022-05-31T08:32:00
+toc: true
+toc_sticky: true
 categories:
   - windows
 tags:

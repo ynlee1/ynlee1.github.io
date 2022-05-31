@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Jekyll] GitHub Blog with minimal-mistake"
-last_modified_at: 2022-05-09
+last_modified_at: 2022-05-30T08:31:00
+toc: true
+toc_sticky: true
 categories:
   - jekyll
 tags:

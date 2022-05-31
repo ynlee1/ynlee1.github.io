@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Windows] Windows 스크린샷 편하게 찍는 방법"
-last_modified_at: 2022-05-22T23:20:00
+last_modified_at: 2022-05-31T08:32:00
+toc: true
+toc_sticky: true
 categories:
   - windows
 tags:

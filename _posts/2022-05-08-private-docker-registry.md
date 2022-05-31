@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Docker] Private docker registry"
-last_modified_at: 2022-05-25T15:24:00
+last_modified_at: 2022-05-31T08:31:00
+toc: true
+toc_sticky: true
 categories:
   - docker
 tags:

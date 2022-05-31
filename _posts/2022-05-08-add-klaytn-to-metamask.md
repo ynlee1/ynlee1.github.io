@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Metamask] How to add klaytn to Metamask"
-last_modified_at: 2022-05-08
+last_modified_at: 2022-05-31T08:30:00
+toc: true
+toc_sticky: true
 categories:
   - metamask
 tags:

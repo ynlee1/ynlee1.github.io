@@ -1,7 +1,9 @@
 ---
 published: true
 title: "[Linux] CPU 정보 확인 방법"
-date: 2022-05-17T16:20:00
+last_modified_at: 2022-05-31T08:32:00
+toc: true
+toc_sticky: true
 categories:
   - linux
 tags:
