@@ -31,6 +31,9 @@ docs:
     - title: "Markdown"
       url: categories/markdown
       category: "markdown"
+    - title: "Python"
+      url: categories/python
+      category: "python"
 
   - title: "Database"
     children:
