@@ -44,11 +44,12 @@ Pipeline 완료 상태에 따라 해당 상태 값들이 결정되며, 이 완�
 {% assign posts = site.categories.jenkins %}
 {% for post in posts %}
   {% if post.title contains 'Dynamic stages in Jenkins pipeline' %}
-    {% include archive-single.html type=page.entries_layout %}
+    {% include linked_post.html url="how-to-contribute-to-open-source-and-land-a-better-job" %}
   {% endif %} 
 {% endfor %}
 
-{{ site.baseurl }}{% link _posts/2022-05-23-jenkins-dynamic-stages.md %}
+{% include archive-single.html type=page.entries_layout %}
 
 ---
+
 <script src="https://gist.github.com/ynlee1/0336a8e3f2ce2ed73d49d4d6cf23de3d.js"></script>
