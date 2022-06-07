@@ -2,7 +2,7 @@
 published: true
 title: "[Jenkins] 'post' section in Jenkins pipeline"
 date: 2022-06-07
-last_modified_at: 2022-06-07T17:01:00
+last_modified_at: 2022-06-08T00:34:00
 toc: true
 toc_sticky: true
 categories:
@@ -21,6 +21,7 @@ Jenkins pipeline에서 `post` section은 pipeline 동작 완료 후 실행되는
 ### 'post' section의 상태 값
 `post` section은 총 10개의 상태 값을 가지고 있습니다. <br>
 Pipeline 완료 상태에 따라 해당 상태 값들이 결정되며, 이 완료 상태를 보고 `post` section을 수행할지 말지를 결정하도록 구현할 수 있습니다. <br>
+
 |` post-condition `|` description `|
 | :-----: | :----------------------------------------------------------- |
 | always | Pipeline 실행 완료 상태와 관계 없이 `post` section을 수행 |
@@ -33,6 +34,8 @@ Pipeline 완료 상태에 따라 해당 상태 값들이 결정되며, 이 완�
 | unstable | 현재 pipeline의 실행 완료 상태가 'unstable'(Web에서 봤을 때 노란색, pipeline이 완료는 되었으나 warning등이 존재하는 경우)인 경우에만 `post` section을 수행 |
 | unsuccessful | 현재 pipeline의 실행 완료 상태가 'success'가 <b>아닌</b> 경우에만 `post` section을 수행 |
 | cleanup | Pipeline 실행 완료 상태와 상관 없이 위에서 언급한 다른 post condition이 평가 된 후 이 조건의 `post` section이 수행 |
+
+<br>
 
 ### Example
 아래는 간단한 예제입니다. 아래 post의 dynamic stage에 `post` section을 추가했습니다.
