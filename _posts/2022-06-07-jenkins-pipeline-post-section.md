@@ -44,11 +44,9 @@ Pipeline 완료 상태에 따라 해당 상태 값들이 결정되며, 이 완�
 {% assign posts = site.categories.jenkins %}
 {% for post in posts %}
   {% if post.title contains 'Dynamic stages in Jenkins pipeline' %}
-    {% include linked-post.html url="how-to-contribute-to-open-source-and-land-a-better-job" %}
+    {% include linked-post.html type=page.entries_layout %}
   {% endif %} 
 {% endfor %}
-
-{% include archive-single.html type=page.entries_layout %}
 
 ---
 

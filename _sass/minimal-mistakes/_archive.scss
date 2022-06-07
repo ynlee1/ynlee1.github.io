@@ -95,6 +95,19 @@
   }
 }
 
+.archive__post-teaser {
+  position: relative;
+  border-radius: $border-radius;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+
+  img {
+    width: 100%;
+  }
+}
+
 .archive__item-caption {
   position: absolute;
   bottom: 0;
