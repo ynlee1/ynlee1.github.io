@@ -22,8 +22,8 @@ Jenkins pipeline에서 `post` section은 pipeline 동작 완료 후 실행되는
 `post` section은 총 10개의 상태 값을 가지고 있습니다. <br>
 Pipeline 완료 상태에 따라 해당 상태 값들이 결정되며, 이 완료 상태를 보고 `post` section을 수행할지 말지를 결정하도록 구현할 수 있습니다. <br>
 
-|` post-condition `|` description `|
-| :-----: | :----------------------------------------------------------- |
+| post-condition | description |
+| :-------------: | :----------------------------------------------------------- |
 | always | Pipeline 실행 완료 상태와 관계 없이 `post` section을 수행 |
 | changed | 이전 실행 완료 상태와 다를 때에만 `post` section을 수행 |
 | fixed | 현재 pipeline 실행 완료 상태가 'success'이고, 이전 실행 완료 상태가 'unstable'이거나 'failure'인 경우에만 `post` section을 수행 |
