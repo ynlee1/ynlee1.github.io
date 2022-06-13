@@ -2,7 +2,7 @@
 published: true
 title: "[Linux] 실행 파일 경로를 확인하는 방법(which/whereis)"
 date: 2022-06-07
-last_modified_at: 2022-06-13T09:20:00
+last_modified_at: 2022-06-13T10:48:00
 toc: true
 toc_sticky: true
 categories:
@@ -29,9 +29,11 @@ Linux에서 python을 실행할 때 우리는 당연하게도 <i>python</i>이�
   which (option) [command/file name]
   ```
 - Option
+  
   | Option | Description |
   | :--------: | :------------------------------------------- |
   | -a | 입력한 command나 file name과 일치하는 모든 경로를 출력 |
+
 - Example
   ```sh
   $ which ls
@@ -54,6 +56,7 @@ Linux에서 python을 실행할 때 우리는 당연하게도 <i>python</i>이�
   whereis (option) [command/file name]
   ```
 - Option
+
   | Option | Description |
   | :--------: | :------------------------------------------- |
   | -b | binary를 search |
@@ -66,6 +69,7 @@ Linux에서 python을 실행할 때 우리는 당연하게도 <i>python</i>이�
   | -f | -B, -M, -S option에 directory를 지정한 다음, 이 option에서 file명을 지정 |
   | -l | file을 조회하는 경로(디렉토리) 목록을 출력 |
   | -v | version 정보 출력 |
+
 - Example
   ```sh
   $ whereis python
