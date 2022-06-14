@@ -2,7 +2,7 @@
 published: true
 title: "[Jenkins] Pipeline에서 stage faild이 발생해도 다음 stage로 넘어가도록 하는 방법"
 date: 2022-05-30
-last_modified_at: 2022-06-14T16:01:00
+last_modified_at: 2022-06-14T16:35:00
 toc: true
 toc_stricky: true
 categories:
@@ -14,7 +14,7 @@ tags:
 ---
 
 ## catchError
-<i>catcheError</i>는 stage에서 exception이 발생하면 build를 failure로 표시하지만 catchError 단계 다음 command에서 pipeline을 계속 실행시켜 줍니다. <br>즉, 특정 stage에서 fail이 발생해도 다음 stage로 넘어갈 수 있도록 해주는 pipeline step입니다.<br>
+<i>catchError</i>는 stage에서 exception이 발생하면 build를 failure로 표시하지만 <i>catchError</i> 단계 다음 command에서 pipeline을 계속 실행시켜 줍니다. <br>즉, 특정 stage에서 fail이 발생해도 다음 stage로 넘어갈 수 있도록 해주는 pipeline step입니다.<br>
 
 ### Exception 발생 시 구성할 수 있는 catchError 동작
 1. Message 출력 (log message)
@@ -38,7 +38,7 @@ catchError(message: 'message', buildResult: 'STABLE'|'FAILURE'|'SUCCESS'|..., st
 * catchInterruptions가 true인 경우 해당 exception(build 중단 및 timeout)이 이 stage에서 catch 및 처리 됩니다.
 
 ## Example
-아래 post 예제에서 catchError를 추가한 간단한 예제입니다. <br>
+아래 post 예제에서 <i>catchError</i>를 추가한 간단한 예제입니다. <br>
 해당 코드는 실패시 stage는 failure로 보이지만 전체 pipeline result에는 영향이 없는 code입니다. <br>
 
 ---
