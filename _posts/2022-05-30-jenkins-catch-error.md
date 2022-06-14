@@ -2,7 +2,7 @@
 published: true
 title: "[Jenkins] Pipeline에서 stage faild이 발생해도 다음 stage로 넘어가도록 하는 방법"
 date: 2022-05-30
-last_modified_at: 2022-06-14T16:35:00
+last_modified_at: 2022-06-14T16:42:00
 toc: true
 toc_stricky: true
 categories:
@@ -39,7 +39,7 @@ catchError(message: 'message', buildResult: 'STABLE'|'FAILURE'|'SUCCESS'|..., st
 
 ## Example
 아래 post 예제에서 <i>catchError</i>를 추가한 간단한 예제입니다. <br>
-해당 코드는 실패시 stage는 failure로 보이지만 전체 pipeline result에는 영향이 없는 code입니다. <br>
+stage 단계에서 exception 발생 시 stage 결과는 failure로 보이지만, 전체 pipeline result에는 영향이 없는 code입니다. <br>
 
 ---
 {% assign posts = site.categories.jenkins %}
