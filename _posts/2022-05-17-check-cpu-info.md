@@ -1,7 +1,8 @@
 ---
 published: true
 title: "[Linux] CPU 정보 확인 방법"
-last_modified_at: 2022-05-31T08:32:00
+date: 2022-05-31
+last_modified_at: 2022-06-14T13:17:00
 toc: true
 toc_sticky: true
 categories:
@@ -38,7 +39,7 @@ grep "cpu cores" /proc/cpuinfo | tail -1
 cat /proc/cpuinfo | egrep 'siblings|cpu cores' | head -2
 ```
 
-### lscpu
+## lscpu
 /proc/cpuinfo에서 정보를 가져와 요약해서 CPU 정보를 보여주는 command입니다.
 ```sh
 lscpu
