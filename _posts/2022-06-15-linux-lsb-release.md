@@ -29,17 +29,17 @@ $ lsb_release [option]
 
 | option | description |
 | :--------------: | :---------------------------------------------------------- |
-| -a, --all | print all information |
-| -s, --kernel-name | print the kernel name |
-| -n, --nodename | print the network node hostname |
-| -r, --kernel-release | print the kernel release |
-| -v, --kernel-version | print the kernel version |
-| -m, --machine | print the machine hardware name |
-| -p, --processor | print the processor type (non-portable) |
-| -i, --hardware-platform | print the hardware platform (non-portable) |
-| -o, --operating-system | print the operating system |
-| --help |  display this help and exit |
-| --version | output version information and exit |
+| -a, -\-all | print all information |
+| -s, -\-kernel-name | print the kernel name |
+| -n, -\-nodename | print the network node hostname |
+| -r, -\-kernel-release | print the kernel release |
+| -v, -\-kernel-version | print the kernel version |
+| -m, -\-machine | print the machine hardware name |
+| -p, -\-processor | print the processor type (non-portable) |
+| -i, -\-hardware-platform | print the hardware platform (non-portable) |
+| -o, -\-operating-system | print the operating system |
+| -\-help |  display this help and exit |
+| -\-version | output version information and exit |
 
 ### 사용 예제
 저는 보통 "-a" option만 사용합니다. Kernel version을 알고 싶은 경우에는 <i>uname</i> command를 사용합니다. <br>
