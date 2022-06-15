@@ -2,7 +2,7 @@
 published: true
 title: "[Linux] lsb_release command"
 date: 2022-06-15
-last_modified_at: 2022-06-15T08:33:00
+last_modified_at: 2022-06-15T09:23:00
 toc: true
 toc_sticky: true
 categories:
@@ -26,6 +26,7 @@ $ lsb_release [option]
 ```
 
 해당 command의 option은 아래와 같습니다. Ubuntu 20.04 기준입니다.
+
 | option | description |
 | :--------------: | :---------------------------------------------------------- |
 | -a, --all | print all information |
