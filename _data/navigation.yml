@@ -22,9 +22,6 @@ docs:
     - title: "Jenkins"
       url: categories/jenkins
       category: "jenkins"
-    - title: "GitHub Action"
-      url: categories/github-action
-      category: "github-action"
 
   - title: "Language"
     children: 
