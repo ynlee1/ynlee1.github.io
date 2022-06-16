@@ -2,7 +2,7 @@
 published: true
 title: "[GitHub] github action으로 reviewer 자동 할당하기"
 date: 2022-06-16
-last_modified_at: 2022-06-16T09:32:00
+last_modified_at: 2022-06-16T10:54:00
 toc: true
 toc_sticky: true
 categories:
@@ -15,13 +15,13 @@ tags:
 ---
 
 ## GitHub action을 이용한 reviewer 자동 할당
-회사에서 개발 진행 시 reviewer가 정해져 있는 상황에서 PR(pull request) open후 매번 reviewer를 등록하는 것도 매우 귀찮은 일입니다. <br>
-이에 PR 관련 event 발생 시(일반적으로 open할 때 trigger합니다), 자동으로 reviewer를 등록해주는 <b>auto-assign-action</b>이라는 action이 있습니다. <br>
+만약 개발 진행 시 reviewer가 정해져 있는 상황이라면, PR(pull request) open후 매번 reviewer를 등록하는 것은 매우 귀찮은 일입니다. <br><br>
+이에 PR 관련 event 발생 시(일반적으로 open할 때 trigger합니다), 자동으로 reviewer를 등록해주는 <b>auto-assign-action</b>이라는 action을 이용하면 좀 더 편하게 작업을 진행할 수 있습니다.<br>
 
 ### auto-assign-action
 <b>auto-assign-action</b>은 PR 요청이 열릴 때 PR에 reviewer를 추가하는 action입니다. <br> 사용 방법은 아래와 같습니다. <br>
 
-1. <i>.github/workflows</i> folder에 아래의 action yml file을 추가해줍니다. File 이름은 상관 없습니다.
+1. <b><i>.github/workflows</i> folder에 아래의 action yml file을 추가해줍니다. File 이름은 상관 없습니다.</b>
 
     ```yml
     name: 'Auto Assign Reviewer'
@@ -40,8 +40,9 @@ tags:
     
     * <i>ready_for_review</i>는 Draft Pull Request가 일반 Pull Request로 변경되었을 때의 activity입니다. 저의 경우 draft pull request를 사용할 일이 없어 'opened'와 'reopened' type을 걸어놨습니다.
     * <i>configuration-path</i>는 아래 2번에 있는 yml file name이 <i>auto_assign.yml</i>이 아닌 경우에 셋팅하며, <i>auto_assign.yml</i>인 경우에는 설정할 필요 없습니다.
+<br><br>
 
-2. <i>.github</i> folder에 아래의 <i>auto-assign.yml</i> file을 만듭니다. 
+2. <b><i>.github</i> folder에 아래의 <i>auto-assign.yml</i> file을 만듭니다. </b>
 
     ```yml
     # auto-assign.yml
@@ -79,7 +80,7 @@ tags:
     * <i>reviewers</i>는 GitHub user name을 입력해줍니다.
     * <i>numberOfReviewers</i>가 0인 경우 <i>reviewers</i>에 등록한 모든 유저가 reviewer로 등록됩니다. 당연한 얘기지만 본인은 제외됩니다.
     * <i>addAssignees</i>에서 <b>'author'</b>를 선택하면 PR을 open한 user가 assignee로 할당됩니다.
-
+<br><br><br>
 
 ### Multiple Reviewers list
 Reviewer group이 여러 개라면 아래처럼 auto-assign.yml을 변경할 수 있습니다.
@@ -131,7 +132,7 @@ useAssigneeGroups: false
 # skipKeywords:
 #   - wip
 ```
-
+<br><br>
 
 ## Reference
 [auto-assign-action github repo](https://github.com/kentaro-m/auto-assign-action)
