@@ -2,7 +2,7 @@
 published: true
 title: "[GitHub] github action으로 reviewer 자동 할당하기"
 date: 2022-06-16
-last_modified_at: 2022-06-16T10:54:00
+last_modified_at: 2022-06-17T12:15:00
 toc: true
 toc_sticky: true
 categories:
@@ -38,11 +38,23 @@ tags:
               configuration-path: '.github/some_name_for_configs.yml' # Only needed if you use something other than .github/auto_assign.yml
     ```
     
-    * <i>ready_for_review</i>는 Draft Pull Request가 일반 Pull Request로 변경되었을 때의 activity입니다. 저의 경우 draft pull request를 사용할 일이 없어 'opened'와 'reopened' type을 걸어놨습니다.
+    * <i>ready_for_review</i>는 Draft Pull Request가 일반 Pull Request로 변경되었을 때의 activity입니다. 저의 경우 draft pull request를 사용할 일이 없어 'opened'와 'reopened' type을 걸어놨습니다.<br>
+    아래 draft pull request 관련 post 참조하시기 바랍니다. <br>
+    
+    ---
+    {% assign posts = site.categories.github %}
+    {% for post in posts %}
+      {% if post.title contains 'Draft Pull Request' %}
+        {% include linked-post.html type=page.entries_layout %}
+      {% endif %} 
+    {% endfor %}
+
+    ---
+
     * <i>configuration-path</i>는 아래 2번에 있는 yml file name이 <i>auto_assign.yml</i>이 아닌 경우에 셋팅하며, <i>auto_assign.yml</i>인 경우에는 설정할 필요 없습니다.
 <br><br>
 
-2. <b><i>.github</i> folder에 아래의 <i>auto-assign.yml</i> file을 만듭니다. </b>
+1. <b><i>.github</i> folder에 아래의 <i>auto-assign.yml</i> file을 만듭니다. </b>
 
     ```yml
     # auto-assign.yml
