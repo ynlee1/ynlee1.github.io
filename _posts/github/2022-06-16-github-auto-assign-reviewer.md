@@ -2,7 +2,7 @@
 published: true
 title: "[GitHub] github action으로 reviewer 자동 할당하기"
 date: 2022-06-16
-last_modified_at: 2022-06-17T12:15:00
+last_modified_at: 2022-06-17T12:20:00
 toc: true
 toc_sticky: true
 categories:
@@ -13,6 +13,20 @@ tags:
   - auto-assign-action
   - reviewer
 ---
+
+본문 내부에 Draft Pull Request 관련 내용이 있습니다. 아래 Post를 참조하시기 바랍니다.<br>
+
+---
+{% assign posts = site.categories.github %}
+{% for post in posts %}
+  {% if post.title contains 'Draft Pull Request' %}
+    {% include linked-post.html type=page.entries_layout %}
+  {% endif %} 
+{% endfor %}
+
+---
+
+
 
 ## GitHub action을 이용한 reviewer 자동 할당
 만약 개발 진행 시 reviewer가 정해져 있는 상황이라면, PR(pull request) open후 매번 reviewer를 등록하는 것은 매우 귀찮은 일입니다. <br><br>
@@ -40,17 +54,6 @@ tags:
     
     * <i>ready_for_review</i>는 Draft Pull Request가 일반 Pull Request로 변경되었을 때의 activity입니다. 저의 경우 draft pull request를 사용할 일이 없어 'opened'와 'reopened' type을 걸어놨습니다.<br>
     아래 draft pull request 관련 post 참조하시기 바랍니다. <br>
-    
-    ---
-    {% assign posts = site.categories.github %}
-    {% for post in posts %}
-      {% if post.title contains 'Draft Pull Request' %}
-        {% include linked-post.html type=page.entries_layout %}
-      {% endif %} 
-    {% endfor %}
-
-    ---
-
     * <i>configuration-path</i>는 아래 2번에 있는 yml file name이 <i>auto_assign.yml</i>이 아닌 경우에 셋팅하며, <i>auto_assign.yml</i>인 경우에는 설정할 필요 없습니다.
 <br><br>
 
