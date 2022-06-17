@@ -2,7 +2,7 @@
 published: true
 title: "[GitHub] Draft Pull Request"
 date: 2022-06-17
-last_modified_at: 2022-06-17T11:03:00
+last_modified_at: 2022-06-17T12:53:00
 toc: true
 toc_sticky: true
 categories:
@@ -34,7 +34,7 @@ Draft Pull Request는 현재 개발이 진행 중(In progress)을 tag하는 Pull
 3. "Draft pull request" 버튼을 선택합니다. <br>
 <img src="https://user-images.githubusercontent.com/90759236/174213141-7738b5bb-1816-4670-8181-09836152c942.png" style="border: 1px solid grey; max-width: 80%; height: auto;"><br>
 
-4. 아래처럼 merge가 막혀있는 것을 알 수 있으며, 일반 merge로 변경하려면 "Ready for review"를 선택하면 됩니다. <br>
+4. 아래처럼 merge가 막혀있는 것을 알 수 있으며, 일반 PR로 변경하려면 "Ready for review"를 선택하면 됩니다. <br>
 <img src="https://user-images.githubusercontent.com/90759236/174217322-0f9f12de-eb53-45cc-96e8-e2c4c65e6d09.png" style="border: 1px solid grey; max-width: 80%; height: auto;"><br>
 <br>
 
