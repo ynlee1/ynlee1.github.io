@@ -2,7 +2,7 @@
 published: true
 title: "[Windows] PC 잠금 쉽게 하기"
 date: 2022-06-23
-last_modified_at: 2022-06-23T11:33:00
+last_modified_at: 2022-06-23T12:46:00
 toc: true
 toc_sticky: true
 categories:
@@ -47,6 +47,9 @@ Windows 단축키 <b><i>Windows + l</i></b>를 통해 PC를 잠금할 수 있습
     ```
     %SystemRoot%\System32\SHELL32.dll
     ```
+
+    <img src="https://user-images.githubusercontent.com/90759236/175204511-03b11a9c-6237-4911-a173-e64322a1b358.png" style="border: 1px solid grey; max-width: 70%; height: auto;">
+    
 
 <br>
 
