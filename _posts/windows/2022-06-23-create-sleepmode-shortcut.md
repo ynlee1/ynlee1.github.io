@@ -14,7 +14,7 @@ tags:
 
 ## Windows keyboard shortcut으로 PC 잠금 하기
 
-Windows 단축키 {% includes kbd.html key="Winlogo" %} + {% includes kbd.html key="l" %}를 통해 PC를 잠금할 수 있습니다. 
+Windows 단축키 {% include kbd.html key="Winlogo" %} + {% include kbd.html key="l" %}를 통해 PC를 잠금할 수 있습니다. 
 * Windows: Windows keyboard shortcut
 * l: 소문자 L
 <br><br><br>
