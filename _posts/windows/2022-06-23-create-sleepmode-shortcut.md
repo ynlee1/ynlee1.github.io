@@ -2,7 +2,7 @@
 published: true
 title: "[Windows] PC 잠금 쉽게 하기"
 date: 2022-06-23
-last_modified_at: 2022-06-23T11:16:00
+last_modified_at: 2022-06-23T11:33:00
 toc: true
 toc_sticky: true
 categories:
@@ -14,10 +14,10 @@ tags:
 
 ## Windows keyboard shortcut으로 PC 잠금 하기
 
-Windows 단축키 {% include kbd.html key="Winlogo" %} + {% include kbd.html key="l" %}를 통해 PC를 잠금할 수 있습니다. 
+Windows 단축키 <b><i>Windows + l</i></b>를 통해 PC를 잠금할 수 있습니다. 
 * Windows: Windows keyboard shortcut
 * l: 소문자 L
-<br><br><br>
+<br><br>
 
 ## Windows lock 바로가기 만들기
 1. <b>바탕화면에서 마우스 우클릭 후 "새로만들기"->"바로가기" 선택 </b><br>
