@@ -2,7 +2,7 @@
 published: true
 title: "[Windows] PC 잠금 쉽게 하기"
 date: 2022-06-23
-last_modified_at: 2022-06-23T09:51:00
+last_modified_at: 2022-06-23T10:42:00
 toc: true
 toc_sticky: true
 categories:
@@ -12,7 +12,7 @@ tags:
   - lock
 ---
 
-## Windows shourtcut으로 PC 잠금 하기
+## Windows keyboard shourtcut으로 PC 잠금 하기
 Windows 단축키 <kbd>![Windows Key][winlogo]</kbd> + <kbd>l</kbd>를 통해 PC를 잠금할 수 있습니다. <br><br><br>
 
 ## Windows lock 바로가기 만들기
@@ -22,14 +22,14 @@ Windows 단축키 <kbd>![Windows Key][winlogo]</kbd> + <kbd>l</kbd>를 통해 PC
 2. 항목 위치 입력에 <i>rundll32.exe</i> 추가<br>
 항목 위치 입력에 아래의 내용을 입력 후 "다음"을 선택합니다.
 
-    ```powershall
+    ```
     rundll32.exe user32.dll,LockWorkStation
     ```
 
     <img src="https://user-images.githubusercontent.com/90759236/175187968-d4182126-4342-46d3-a630-2348ef55baf6.png" style="border: 1px solid grey; max-width: 80%; height: auto;">
 <br>
 
-3. 바로가기 이름을 지정 후 "마침" 선택<br>
+1. 바로가기 이름을 지정 후 "마침" 선택<br>
 바로 가기에 사용할 이름을 입력해줍니다. 저의 경우는 sleep.exe이라는 이름을 입력했습니다. <br>
 <img src="https://user-images.githubusercontent.com/90759236/175188220-70a77572-b862-484e-8ce8-b130913c96f0.png" style="border: 1px solid grey; max-width: 80%; height: auto;"> <br><br>
 
@@ -40,7 +40,7 @@ Windows 단축키 <kbd>![Windows Key][winlogo]</kbd> + <kbd>l</kbd>를 통해 PC
 5. (Optional) 아이콘 변경 <br>
 만약 아이콘 변경을 원한다면, 바로가기 우클릭 후 "속성"->"아이콘 변경"을 선택하여 아래 경로를 입력해주면 Windows에서 기본적으로 사용하는 icon들을 선택할 수 있습니다. <br>
     
-    ```powershall
+    ```
     %SystemRoot%\System32\SHELL32.dll
     ```
 
