@@ -2,7 +2,7 @@
 published: true
 title: "[Jenkins] Jenkins copyArtifacts"
 date: 2022-06-27
-last_modified_at: 2022-06-27T12:02:00
+last_modified_at: 2022-06-27T13:01:00
 toc: true
 toc_sticky: true
 categories:
@@ -37,7 +37,7 @@ Linux상에서 해당 작업을 할 경우에 절대 경로, 혹은 현재 works
 ### <i><b>copyArtifacts</b></i> parameters
 아래는 <i>copyArtifacts</i>의 각 parameter에 대한 설명입니다.
 
-|` parameter `| `type` | ` description `|
+| parameter | type | description |
 | :---------: | :-----: | :----------------------------------------------------------- |
 | projectName | string | Artifact를 복사할 Jenkins job name |
 | excludes(optional) | string | 복사할 artifacts에서 제외할 artifact 경로 및 패턴 |
@@ -51,7 +51,7 @@ Linux상에서 해당 작업을 할 경우에 절대 경로, 혹은 현재 works
 
 아래는 위 parameter중 selector에서 사용할 수 있는 list입니다.<br>
 
-|` name `| ` description `|
+| name | description |
 | :---------: | :----------------------------------------------------------- |
 | lastSuccessful | lastest successful build |
 | specific | specific build |
