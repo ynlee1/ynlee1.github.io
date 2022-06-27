@@ -2,7 +2,7 @@
 published: true
 title: "[Jekyll] minimal-mistakes skin 변경 방법"
 date: 2022-06-27
-last_modified_at: 2022-06-27T14:19:00
+last_modified_at: 2022-06-27T16:05:00
 toc: true
 toc_sticky: true
 categories:
@@ -22,7 +22,7 @@ Jekyll에서 minimal-mistakes theme에서 skin 변경 하는 방법은 두 개�
 _config.yml의 <i>minimal_mistakes_skin</i> 값을 원하는 skin으로 수정해줍니다. <br>
 skin에 대한 자세한 정보는 <https://mmistakes.github.io/minimal-mistakes/docs/configuration/>에서 확인하실 수 있습니다. <br> 
 
-<br> 저는 "air" skin으로 변경했습니다. <br><br>
+저는 "air" skin으로 변경했습니다. <br>
 
 ```yml
 # Theme Settings
