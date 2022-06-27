@@ -2,7 +2,7 @@
 published: true
 title: "[Jekyll] minimal-mistakes skin 변경 방법"
 date: 2022-06-27
-last_modified_at: 2022-06-27T14:16:00
+last_modified_at: 2022-06-27T14:19:00
 toc: true
 toc_sticky: true
 categories:
@@ -47,8 +47,8 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 @charset "utf-8";
 
-{% raw %}/{% endraw %}/ @import "minimal-mistakes/skins/{% raw %}{{{% endraw %} site.minimal_mistakes_skin | default: 'default' {% raw %}}}{% endraw %}"; // skin
-@import "minimal-mistakes/skins/{% raw %}{{% endraw %}{ site.minimal_mistakes_skin {% raw %}}{% endraw %}}"; // skin
+{% raw %}/{% endraw %}/ @import "minimal-mistakes/skins/{% raw %}{{% endraw %}{% raw %}{{% endraw %} site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes/skins/{% raw %}{{% endraw %}{% raw %}{{% endraw %} site.minimal_mistakes_skin }}"; // skin
 ```
 <br><br>
 
