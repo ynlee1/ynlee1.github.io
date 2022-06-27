@@ -2,7 +2,9 @@
 published: true
 title: "[Jenkins] Jenkins copyArtifacts"
 date: 2022-06-27
-last_modified_at: 2022-06-27T09:51:00
+last_modified_at: 2022-06-27T12:02:00
+toc: true
+toc_sticky: true
 categories:
   - jenkins
 tags:
