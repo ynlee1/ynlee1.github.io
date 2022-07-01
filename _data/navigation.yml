@@ -49,6 +49,9 @@ docs:
     - title: "Windows"
       url: categories/windows
       category: "windows"
+    - title: "MS Word"
+      url: categories/msword
+      category: "msword"
 
   - title: "Blockchain"
     children:
