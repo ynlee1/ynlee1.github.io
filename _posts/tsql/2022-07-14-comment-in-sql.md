@@ -1,8 +1,8 @@
 ---
 published: true
-title: "[SQL] 주석 처리"
+title: "[ms-sql] 주석 처리"
 date: 2022-07-14
-last_modified_at: 2022-07-14T11:30:00
+last_modified_at: 2022-07-14T13:35:00
 toc: true
 toc_sticky: true
 categories:

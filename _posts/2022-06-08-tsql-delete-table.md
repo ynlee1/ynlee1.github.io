@@ -1,8 +1,8 @@
 ---
 published: true
-title: "[tsql] delete - delete data from DB"
+title: "[ms-sql] delete - delete data from DB"
 date: 2022-06-08
-last_modified_at: 2022-07-14T11:32:00
+last_modified_at: 2022-07-14T13:36:00
 toc: true
 toc_sticky: true
 categories:
