@@ -2,7 +2,7 @@
 published: true
 title: "[ms-sql] UPDATE를 이용한 data 변경"
 date: 2022-07-14
-last_modified_at: 2022-07-14T13:50:00
+last_modified_at: 2022-07-14T13:52:00
 toc: true
 toc_sticky: true
 categories:
@@ -33,7 +33,7 @@ UPDATE dbo_user SET phone = '0'
 특정 column 특정 값을 변경
 
 ```sql
-UPDATE dbo_user SET phone = '012-3456-xxxx' where u_name = '홍길동'
+UPDATE dbo_user SET phone = '012-3456-xxxx' WHERE u_name = '홍길동'
 ```
 
 * 이름이 '홍길동'인 유저의 phone#를 '012-3456-xxxx'로 변경
