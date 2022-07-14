@@ -2,7 +2,7 @@
 published: true
 title: "[SQL] 주석 처리"
 date: 2022-07-14
-last_modified_at: 2022-07-14T11:16:00
+last_modified_at: 2022-07-14T11:30:00
 toc: true
 toc_sticky: true
 categories:
@@ -11,6 +11,8 @@ tags:
   - sql
   - comment
 ---
+
+* 작성일: 2022/07/14
 
 ## SQL에서 주석 처리
 다른 일반적인 언어와 마찬가지로 single line 주석과 multi line 주석이 있습니다.<br><br>
@@ -32,3 +34,4 @@ multi line comment
 select all 
 */
 select * from contents
+```

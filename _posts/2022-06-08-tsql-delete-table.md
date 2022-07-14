@@ -2,7 +2,7 @@
 published: true
 title: "[tsql] delete - delete data from DB"
 date: 2022-06-08
-last_modified_at: 2022-06-08T12:49:00
+last_modified_at: 2022-07-14T11:32:00
 toc: true
 toc_sticky: true
 categories:
@@ -26,3 +26,6 @@ delete from ['table name']
 ```sql
 delete from ['table name'] where 'key' = 'value';
 ```
+
+(2022/07/14 Update)<br>
+<u><i>위 예제에서 <b>key</b>는 <b>" ' "</b>(single quotation marks) 없이 사용해야 합니다.</i>
