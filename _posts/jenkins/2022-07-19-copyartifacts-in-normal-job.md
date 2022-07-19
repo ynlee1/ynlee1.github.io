@@ -17,9 +17,9 @@ tags:
 * <b>관련 blog</b>: <u>Pipeline에서 copyArtifacts 생성하기</u>
 
 ---
-{% assign posts = site.categories.github %}
+{% assign posts = site.categories.jenkins %}
 {% for post in posts %}
-  {% if post.title contains 'Draft Pull Request' %}
+  {% if post.title contains 'Jenkins copyArtifacts' %}
     {% include linked-post.html type=page.entries_layout %}
   {% endif %} 
 {% endfor %}
