@@ -51,4 +51,4 @@ Artifact를 가져올 project의 job configuration에서 "Permission to Copy Art
    * <b>Parameter filters</b>: 특정 매개변수 또는 빌드 변수와 일치하는 build만 선택하도록 filtering할 때 사용
    * <b>Flatten directories</b>: 복사할 artifact의 directory 구조는 copy해오지 않음
    * <b>Optional</b>: copyArtifacts애서 실패가 발생하더라도 step 실패가 발생하지 않음
-   * <b>Fingerprint Artifacts</b>: rtifact의 MD5 checksum을 기록, 빌드를 추적하는데 사용
+   * <b>Fingerprint Artifacts</b>: artifact의 MD5 checksum을 기록, 빌드를 추적하는데 사용
