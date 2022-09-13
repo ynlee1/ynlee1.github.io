@@ -2,7 +2,7 @@
 published: true
 title: "[VSCode] Indent 변경하기"
 date: 2022-09-13
-last_modified_at: 2022-09-13T09:03:00
+last_modified_at: 2022-09-13T10:01:00
 toc: true
 toc_sticky: true
 categories:
@@ -24,3 +24,6 @@ tags:
 
 2. 검색창에서 <b>"editor tab"</b>을 입력 후 아래처럼 설정 변경<br>
 <img src="https://user-images.githubusercontent.com/90759236/189784241-1894fe03-72d7-48c8-b4d8-cb6fb8363375.png" style="border: 1px solid grey; max-width: 100%; height: auto;"><br>
+
+설정은 변경 후 창을 닫아주면 바로 완료되며, 확인은 우측 아래 <b>공백</b>란에서 확인하실 수 있습니다.<br>
+<img src="https://user-images.githubusercontent.com/90759236/189784812-7452d06e-ab6c-4677-8813-0c78311dac3c.png" style="border: 1px solid grey; max-width: 100%; height: auto;"><br>
