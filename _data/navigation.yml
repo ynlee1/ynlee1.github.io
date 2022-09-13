@@ -52,6 +52,9 @@ docs:
     - title: "MS Word"
       url: categories/msword
       category: "msword"
+    - title: "VSCode"
+      url: categories/vscode
+      category: "vscode"
 
   - title: "Blockchain"
     children:
