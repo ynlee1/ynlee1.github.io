@@ -1,8 +1,8 @@
 ---
 published: true
-title: "[VSCode] python에서 "module_name" could not be resolved 해결 방법"
+title: "[VSCode] python에서 '[module_name] could not be resolved' 해결 방법"
 date: 2022-10-24
-last_modified_at: 2022-10-24T12:38:00
+last_modified_at: 2022-10-24T12:54s:00
 toc: true
 toc_sticky: true
 categories:
@@ -15,7 +15,7 @@ tags:
 
 * <b>작성일</b>: 2022/10/24
 
-## VSCode에서 python 개발 시 "Could not be resolved" 해결 방법
+## VSCode에서 python 개발 시 'Could not be resolved' 해결 방법
 VSCode에서 python 개발 시 이미 설치한 모듈(pip를 이용해)인데도 <b>"[module name] Colud not be resolved"</b> error가 발생할 수 있습니다. <br>
 이는 가상 환경에서 개발 시, 혹은 여러 python version이 설치되어 있을 때 VSCode가 적절한 interpreter(python version) 경로 를 매칭하지 못해서 생기는 문제로, 현재 개발 환경에 맞는 python version을 설정해주면 해결됩니다. <br>
 <br>
